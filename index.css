@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(221, 220, 216);;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #b7825f;
+    width: 100%;
+    padding: 20px 35px;
+    box-shadow: 0px 3px 10px gray;
+    font-size: 1.5rem;
+}
+
+header{
+    width: 630px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.books-container{
+    width: 630px;
+    margin: 0 auto;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.book-div-top{
+    width: 200px;
+}
+
+.book-div-bottom{
+    width: 200px;
+}
