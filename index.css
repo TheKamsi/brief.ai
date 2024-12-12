@@ -1,13 +1,13 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(221, 220, 216);;
+    background-color: whitesmoke;
 }
 
 nav{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #b7825f;
+    background-color: #f8f8f8;
     width: 100%;
     padding: 20px 35px;
     box-shadow: 0px 3px 10px gray;
@@ -20,17 +20,91 @@ header{
     text-align: center;
 }
 
-.books-container{
-    width: 630px;
+#books-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 950px;
     margin: 0 auto;
-    background-color: red;
-    border: 1px solid black;
 }
 
 .book-div-top{
-    width: 200px;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-bottom: 5px solid #d9d9d9;
+    background-color: #1bd760;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .book-div-bottom{
-    width: 200px;
+    width: 300px;
+    background-color: #fff;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#purple-emphasis{
+    color: purple;
+}
+
+.indiviual-book-container{
+    margin-bottom: 10px;
+    border: 1px solid #eef1f4;
+    border-radius: 10px;
+}
+
+.indiviual-book-container:hover{
+    border: 1px solid #e2e6ea;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.book-category-title{
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.book-title{
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.book-author{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.book-image{
+    width: 100px;
+    height: 120px;
+    border-radius: 25px;
+    margin: 40px auto;
+}
+
+.added-functionality{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    left: 30px;
+}
+
+.added-functionality button{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    background-color: wheat;
+    border-radius: 50%;
+    border: none;
+}
+
+.added-functionality button:hover{
+    background-color: green;
 }
