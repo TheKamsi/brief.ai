@@ -1,6 +1,3 @@
-// import { bookList } from "/src/data.js"
-
-
 export default function(props){
     return(
         <div className="indiviual-book-container">
@@ -26,26 +23,3 @@ export default function(props){
         </div>
     )
 }
-
-
-/* <div className="indiviual-book-container">
-          <div className="book-div-top">
-            <img
-              src="/public/book-images/first-20-hrs.png"
-              alt="book title"
-              className="book-image"
-            />
-            <div className="added-functionality">
-              <button href="">a</button>
-              <button href="">b</button>
-              <button href="">c</button>
-            </div>
-          </div>
-          <div className="book-div-bottom">
-            <h2 className="book-category-title">The First 20 Hours: How to Learn Anything...Fast</h2>
-            <p className="book-title">
-            ${book.bookTitle}
-            </p>
-            <p className="book-author">By Josh Kaufman</p>
-          </div>
-        </div> */
